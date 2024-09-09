@@ -7,6 +7,9 @@
     --color-gray2: #9397ad;
     --color-white: #FFFFFF;
 
+    --color-border-gray: #E2E5F1;
+
+
     --container-padding: 1rem;
     -o-transition-time: all 0.2s;
 }
@@ -265,6 +268,20 @@ footer {
     }
 }
 
+#brands {
+    display: none;
+
+}
+
+.brand-box {
+    border: 1px solid var(--color-border-gray);
+    border-radius: 8px;
+    height: 100px;
+}
+
+
+
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
@@ -283,6 +300,16 @@ footer {
     
         }
     }
+
+    #brands{
+        display: block;
+    
+        .container {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+    }   
 }
 
 @media (min-width: 1400px) {
