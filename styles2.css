@@ -220,27 +220,20 @@ header .container {
 
 }
 
-/* .left {
-    
 
-} */
 
 .discover-class {
     padding-top: 14rem;
 
 }
 
-/* .iphone2x {
-    
-     */
-/* } */
+
 
 .iphone2x img {
 
     max-width: 100%;
 
 }
-
 
 
 
@@ -258,18 +251,23 @@ footer {
         gap: 0.6rem;
     }
 
-    .copyright {
-
-    }
-
     .credit {
         display: none;
-
     }
 }
 
+
 #brands {
     display: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .container {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        gap: 1rem;
+    }
 
 }
 
@@ -277,6 +275,10 @@ footer {
     border: 1px solid var(--color-border-gray);
     border-radius: 8px;
     height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -301,15 +303,14 @@ footer {
         }
     }
 
-    #brands{
+    #brands {
         display: block;
     
-        .container {
-            display: flex;
-            justify-content:space-between;
-            align-items: center;
-        }
-    }   
+    }
+    
+    #brand1, #brand2 {
+        display: none;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -329,6 +330,10 @@ footer {
     }
     .navbar {
         display: block;
+    }
+
+    #brand1, #brand2 {
+        display: flex;
     }
 }
 
