@@ -282,34 +282,126 @@ footer {
     align-items: center;
 }
 
+.page2 {
+    display: grid;
+}
+
+
 .app-features {
     font-size: 40px;
     font-weight: 800;
     color: var(--color-dark);
+    grid-column: 3 / 6;
+    grid-row: 1 /2;
+
+    
 
 }
 
 .p2-subtitle {
     font-size: 18px;
     color: var(--color-gray);
+    grid-column: 3 / 6;
+    grid-row: 2 / 2;
 }
 
-
-.page2 {
-    
-
+.card-iphone {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    padding-right: 8rem;
 }
 
 .card-container {
-
+    display: grid;
+    grid-column: 3 /4;
+    grid-row: 3 /4;
+    
     h5 {
         font-size: 20px;
     }
-
+    
     p {
         color: var(--color-gray73);
     }
 }
+
+#innehåll-1 {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+}
+
+#innehåll-2 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    
+}
+
+#innehåll-3 {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
+}
+
+#innehåll-4 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    
+}
+
+#innehåll-5 {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    
+}
+
+#innehåll-6 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    
+}
+
+.innehåll {
+    display: flex;
+    width: 340px;
+    height: 140px;
+    align-items: flex-start;
+
+    .app-images {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    h5 {
+        display: flex;
+        font-weight: 800;
+        font-size: 20px;
+        grid-column: 2 / 3;
+        grid-row:  1 / 3;
+        align-self: baseline;
+
+    }
+
+    p {
+        display: flex;
+        font-size: 16px;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 230px;
+        justify-content: center;
+        align-self: flex-end;
+    }
+}
+
+
+
+
 
 .app-images {
     width: 60px;
@@ -319,6 +411,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    
 }
 
 
