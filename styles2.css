@@ -294,6 +294,7 @@ footer {
     grid-column: 3 / 6;
     grid-row: 1 /2;
 
+
     
 
 }
@@ -303,6 +304,7 @@ footer {
     color: var(--color-gray);
     grid-column: 3 / 6;
     grid-row: 2 / 2;
+    
 }
 
 .card-iphone {
@@ -410,6 +412,10 @@ footer {
     padding: 2rem;
 }
 
+.page3 {
+    
+}
+
 .transaction-history {
     display: flex;
     justify-content: center;
@@ -426,6 +432,10 @@ footer {
     color: var(--color-gray73);
 }
 
+#p3-rad2 {
+    padding-bottom: 3rem;
+}
+
 .app-images {
     width: 60px;
     height: 60px;
@@ -436,6 +446,10 @@ footer {
     align-items: center;
     align-self: center;
     
+}
+
+.page3-bgcolor {
+    background-color: #f1f1f1;
 }
 
 
