@@ -400,8 +400,31 @@ footer {
 }
 
 
+.how {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-dark);
+    font-weight: 800;
+    font-size: 40px;
+    padding: 2rem;
+}
 
+.transaction-history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-dark);
+    font-size: 24px;
+    font-weight: 800;
+}
 
+.p3-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-gray73);
+}
 
 .app-images {
     width: 60px;
