@@ -210,7 +210,7 @@ header .container {
 
 .firstpage-container {
     display: flex;
-    
+    gap: 50px;
     width: 100%;
 }
 
@@ -233,6 +233,7 @@ header .container {
 .iphone2x {
     max-width: 100%;
     display: none;
+    
     
 }
 
@@ -450,6 +451,97 @@ footer {
 
 .page3-bgcolor {
     background-color: #f1f1f1;
+}
+
+.page4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.top-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 240px;
+    margin-top: 5rem;
+    
+    
+}
+
+#make-money {
+
+        font-size: 32px;
+        font-weight: 800;
+        color: var(--color-dark);
+    
+}
+
+
+.p4-topleft {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+
+    li {
+        color: var(--color-gray73);
+        padding-bottom: 0.5rem;
+        
+    }
+
+}
+
+.p4-bottomright {
+    margin-left: 7rem;
+}
+
+
+.bottom-side {
+    display: flex;
+}
+
+.innehållp4 {
+    display: inline-block;
+    margin: 1rem 2rem 2rem 0rem;
+
+    p {
+        color: var(--color-gray73);
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+#receive-payment {
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.btn-learn-more {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+
+}
+
+.btn-learn-more i {
+    margin: 0.5rem;
+    
+}
+
+.btn-learn-more:hover {
+    color: var(--color-white);
+    background-color: var(--color-gray);
+    text-decoration: none;
+}
+
+.learn-more-classbtn {
+    padding-top: 2rem;
 }
 
 
