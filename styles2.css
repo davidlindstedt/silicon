@@ -239,8 +239,8 @@ header .container {
 
 footer {
     font-size: 14px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     .container {
         display: flex;
