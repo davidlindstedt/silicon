@@ -570,8 +570,9 @@ footer {
 
 .clients {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 38px;
     color: var(--color-dark);
+    padding: var(--container-padding);
 }
 
 .ratings {
@@ -628,10 +629,7 @@ footer {
     padding-bottom: 1.5rem;
 }
 
-.faq-left {
 
-
-}
 
 .any-questions {
     font-size: 32px;
@@ -800,6 +798,81 @@ footer {
     cursor: pointer;
     background-color: var(--color-primary)
     
+}
+
+.subscribe-box {
+    border-radius: 8px;
+    margin-top: 100px;
+    padding: 0 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 222px;
+    background-color: #F3F6FF
+    
+
+}
+
+.subscribe-text {
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.noti-bell {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 472px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-container img {
+    padding: 14px;
+    background-color: #fff;
+
+}
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="email"]::placeholder {
+    color: #bbb;
+}
+
+.sub-btn {
+    padding: 15px 25px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 0 8px 8px 0;
+}
+
+.sub-btn:hover {
+    background-color: #5946d2;
 }
 
 @media (min-width: 768px) {
