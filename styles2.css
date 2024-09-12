@@ -201,6 +201,7 @@ header .container {
     height: 40px;
     border: none;
     cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .discover-text {
@@ -222,12 +223,10 @@ header .container {
 }
 
 
-
 .discover-class {
     padding-top: 14rem;
 
 }
-
 
 
 .iphone2x {
@@ -236,8 +235,6 @@ header .container {
     
     
 }
-
-
 
 
 
@@ -285,6 +282,8 @@ footer {
 
 .page2 {
     display: grid;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -499,6 +498,7 @@ footer {
 
 .bottom-side {
     display: flex;
+    margin-bottom: 3rem;
 }
 
 .innehållp4 {
@@ -513,11 +513,10 @@ footer {
 
 
 
-
 #receive-payment {
     font-weight: 800;
     font-size: 32px;
-
+    
 }
 
 .btn-learn-more {
@@ -526,7 +525,7 @@ footer {
     border-radius: 8px;
     padding: 12px 24px;
     font-size: 14px;
-
+    
 }
 
 .btn-learn-more i {
@@ -542,6 +541,92 @@ footer {
 
 .learn-more-classbtn {
     padding-top: 2rem;
+}
+
+.bg-colorp5 {
+    background-color: #F3F6FF;
+    
+}
+#citat1
+{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 35px;
+}
+
+#citat2 {
+    position: absolute;
+    margin-left: 870px;
+    margin-top: 35px;
+
+}
+
+
+
+#page5 {
+    padding-top: 2rem;
+    display: flex;
+    padding-bottom: 6rem;
+}
+
+.clients {
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--color-dark);
+}
+
+.ratings {
+    display: flex;
+    gap: 2rem;
+    padding-left: 7rem;
+    padding-top: 4rem;
+}
+
+.rating-12 {
+    padding-top: 2rem;
+    width: 416px;
+    height: 329px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+
+    p {
+        font-size: 18px;
+        color: var(--color-gray73);
+    }
+
+}
+
+.names {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-dark);
+}
+
+.work {
+    font-size: 14px;
+    color: var(--color-gray)
+}
+
+.fannie {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.Albert {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.names-jobs {
+    padding-left: 1rem;
+}
+
+.rating-stars {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 
