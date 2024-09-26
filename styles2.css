@@ -235,13 +235,16 @@ header .container {
 }
 
 
-.iphone2x {
+/* .iphone2x {
     max-width: 100%;
     display: none;
     
     
-}
+} */
 
+.firstpage-container {
+    margin-top: 5rem;
+}
 
 
 footer {
